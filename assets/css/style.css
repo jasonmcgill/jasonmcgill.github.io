@@ -1,0 +1,97 @@
+* {
+    font-family: 'Allerta', sans-serif;
+}
+
+:root {
+    --background: #efe8e2;
+    --light-green: #406156;
+    --dark-green: #2b4039;
+    --text-color: #6c9d8d;
+}
+
+
+/* header styling */
+header {
+    background-color: var(--dark-green);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    padding-bottom: 12px;
+}
+
+header h1 a {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--dark-green);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 25px;
+}
+
+header nav ul li a {
+    padding: 10px 4px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+header nav ul li a span {
+    border-bottom: 3px solid var(--text-color);
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--text-color);
+    display:flex;
+    text-align: right;
+    padding-top: 3px;
+}
+
+header h1 a {
+    width: 300px;
+    background-color: var(--text-color);
+    padding-right: 8px;
+} 
+
+/* hero styling */
+
+.hero {
+    background-image: url(../images/ali-kazal-7b39feeIMO0-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero p {
+    margin: 20px 75px; 
+    background-color: var(--text-color);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background: var(--background);
+}
