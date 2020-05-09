@@ -92,6 +92,40 @@ header h1 a {
     font-weight: bold;
 }
 
+/* body styling */
 body {
     background: var(--background);
+}
+
+/* general */
+.nav-spots {
+    display: flex
+}
+
+/* about me styling */
+.nav-spots-child {
+    font-size: 40px;  
+    text-align: right;  
+    margin: 40px 5px;
+    padding: 0px 20px 69px 60px;
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 3px solid var(--text-color);
+    color: var(--text-color);
+    line-height: .90;
+}
+
+.about-me-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+    
+}
+
+.about-me h3 {
+    margin:0;
 }
