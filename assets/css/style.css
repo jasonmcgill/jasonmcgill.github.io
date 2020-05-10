@@ -145,8 +145,6 @@ body {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 500px;
-    width: 800px;
     grid-gap: 20px;
 }
 
@@ -322,4 +320,20 @@ body {
 
 .work-content {
     height: 600px;
+}
+
+/* media query smaller screens */
+@media screen and (max-width: 1000px) {
+    .left-aside {
+        border-bottom: 3px solid var(--text-color);
+        text-align: center;
+        border-right: none;
+}
+
+.body-container {
+    grid-template-columns: auto;
+}
+
+.body-container p {
+    text-align: center;
 }
