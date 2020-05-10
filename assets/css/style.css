@@ -92,19 +92,6 @@ header h1 a {
     font-weight: bold;
 }
 
-/* .me {
-    display: block;
-    background-image: url(../images/me.png);
-    background-position: bottom;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 150px;
-    position: relative;
-    bottom: 5px;
-    padding-left: 10px;
-} */
-
 /* body styling */
 body {
     background: var(--background);
@@ -124,6 +111,12 @@ body {
     border-bottom: 3px solid var(--text-color);
     font-weight: bold;
     font-size: 20px;
+}
+
+.footer-info img{
+    height: 135px;
+    width: 90px;
+    padding-top: 5px;
 }
 
 .left-aside {
