@@ -5,67 +5,130 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Allerta:wght@200;400&display=swap" rel="stylesheet">  
+  <title>Jason McGill Portfolio</title>
 </head>
 <!-- html body -->
 <body>
   <!-- navigation -->
   <header>
     <h1>
-      <a href="/"> Jason McGill</a>
+      <a href="/">Jason McGill</a>
     </h1>
     <nav>
       <ul>
         <li>
-          <a href="#about-me">About Me</a>
+          <a href="#about-me"><span>About Me</span></a>
         </li>
         <li>
-          <a href="#work">Work</a>
+          <a href="#work"><span>Work</span></a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact"><span>Contact</span></a>
         </li>
         <li>
-          <a href="">Resume</a>
-        </li>
+          <a href=""><span>Resume</span></a>
+       </li>
       </ul>
     </nav>
   </header>
 <!-- hero -->
-  <section>
+  <section class="hero">
     <p>
       Web Developer
     </p>
   </section>
 
-  <section id="about-me">
-    <h3>
-      About Me
-    </h3>
+  <!-- about me section -->
+  <section class="body-container" id="about-me">
+    <article class="left-aside">
+      <h3>
+        About Me
+      </h3>
+    </article>
+    <article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non est voluptatibus quo unde eius distinctio esse rerum consequuntur enim dolore nobis inventore aliquid voluptatum numquam earum, similique ab! Aspernatur, deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore eius ullam minus ut cum sit autem numquam similique perferendis quo architecto maiores quis, doloribus culpa dicta rerum. Alias, laborum quasi!
+      <br><br>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quam laudantium rem ad unde dignissimos assumenda ullam optio, atque beatae blanditiis laboriosam consectetur aliquid sequi veritatis delectus quaerat voluptatum minima. Sunt, voluptate voluptates? Corporis neque velit explicabo, eum harum voluptatum accusantium similique illum tempora a totam sed nisi voluptate ipsa aliquid. Consectetur ad fuga sunt aut adipisci architecto rerum illum!
+      </p>
+    </article>    
   </section>
 
-  <section id="work">
-    <h3>
-      Work
-    </h3>
+
+  <!-- work section -->
+  <section class="body-container" id="work">
+    <article class="left-aside">
+      <h3>
+       Work
+      </h3>
+    </article>
+    <article class="work-content work-grid">
+      
+      <div class="site-1">
+        <a href="https://jasonmcgill.github.io/run-buddy/"> </a>
+        <p>
+          Run Buddy <br>
+          <span>CSS/HTML</span>
+        </p>
+      </div>
+
+      <div class="site-2">
+        <a href="https://github.com/jasonmcgill"></a>
+        <p>
+          LED Wall <br>
+          <span>CSS/HTML</span>
+        </p>
+      </div>
+      
+      <div class="site-3">
+        <a href="https://github.com/jasonmcgill"></a>
+        <p>
+          Calculator <br>
+          <span>CSS/HTML</span>
+        </p>
+      </div>
+
+      <div class="site-4">
+        <a href="https://github.com/jasonmcgill"></a>
+        <p>
+          Theme Park <br>
+          <span>CSS/HTML</span>
+        </p>
+      </div>
+
+      <div class="site-5">
+        <a href="https://github.com/jasonmcgill"></a>
+        <p>
+          Space Pirates <br>
+          <span>CSS/HTML</span>
+        </p>
+      </div>
+
+    </article>
   </section>
 
-  <footer id="contact">
-    
-    <h3>Contact Me</h3>
-    <div>
-      <ul>
-        <li>
-          <a href="tel:385.208.2791">385-208-2791</a>
-        </li>
-        <li>
-          <a href="mailto://jason.mcgill@live.com">Jason.McGill@live.com</a>
-        </li>
-        <li>
-          <a href="https://github.com/jasonmcgill/jasonmcgill.github.io">Github</a>
-        </li>
-      </ul>
-    </div>
+   <!-- footer -->
+  <footer class="body-container" id="contact">
+    <section class="left-aside">
+      <h3>
+        Contact Me        
+      </h3>
+    </section> 
+        <ul class="footer-info">
+          <li>
+            <img src="assets/images/me.png"></a>
+          </li> 
+          <li>
+            <a href="tel:385.208.2791">385-208-2791</a>
+          </li>
+          <li>
+            <a href="mailto://jason.mcgill@live.com">Jason.McGill@live.com</a>
+          </li>
+          <li>
+            <a href="https://github.com/jasonmcgill/jasonmcgill.github.io">Github</a>
+          </li>
+        </ul>
   </footer>
 
 </body>
