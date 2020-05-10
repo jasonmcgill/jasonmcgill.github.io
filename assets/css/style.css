@@ -150,11 +150,6 @@ body {
     grid-gap: 20px;
 }
 
-.site-1 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-}
-
 .site-1 a {
     display: block;
     background-image: url(../images/runbuddy.JPG);
@@ -162,7 +157,19 @@ body {
     border: 3px solid var(--text-color);
     height: 100%;
     width: 100%;
+    opacity: 75%;
 }
+
+.site-1 a:hover, .site-2 a:hover, .site-3 a:hover, .site-4 a:hover, .site-5 a:hover {
+    opacity: 100%
+}
+
+
+.site-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
 
 .site-1 p {
     display: block;
@@ -193,6 +200,7 @@ body {
     border: 3px solid var(--text-color);
     height: 100%;
     width: 100%;
+    opacity: 75%;
 }
 
 .site-2 p {
@@ -225,6 +233,7 @@ body {
     border: 3px solid var(--text-color);
     height: 100%;
     width: 100%;
+    opacity: 75%;
 }
 
 .site-3 p {
@@ -257,6 +266,7 @@ body {
     border: 3px solid var(--text-color);
     height: 100%;
     width: 100%;
+    opacity: 75%;
 }
 
 .site-4 p {
@@ -289,6 +299,7 @@ body {
     border: 3px solid var(--text-color);
     height: 100%;
     width: 100%;
+    opacity: 75%;
 }
 
 .site-5 p {
