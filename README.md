@@ -9,12 +9,12 @@ Made with:
 *CSS
 
 Here is a screenshot of the entire page
-![entire page] (https://raw.githubusercontent.com/jasonmcgill/jasonmcgill.github.io/master/assets/images/screenshot3.JPG)
+![entire page](https://raw.githubusercontent.com/jasonmcgill/jasonmcgill.github.io/master/assets/images/screenshot3.JPG)
 
 Here is a screenshot of the top
-![top of the page] (https://raw.githubusercontent.com/jasonmcgill/jasonmcgill.github.io/master/assets/images/screenshot1.JPG)
+![top of the page](https://raw.githubusercontent.com/jasonmcgill/jasonmcgill.github.io/master/assets/images/screenshot1.JPG)
 
 Here is a screenshot of the bottom
-![bottom of the page] (https://raw.githubusercontent.com/jasonmcgill/jasonmcgill.github.io/master/assets/images/screenshot2.JPG)
+![bottom of the page](https://raw.githubusercontent.com/jasonmcgill/jasonmcgill.github.io/master/assets/images/screenshot2.JPG)
 
 Made by Jason McGill
