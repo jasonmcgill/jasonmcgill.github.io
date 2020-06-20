@@ -1,0 +1,378 @@
+* {
+    font-family: 'Allerta', sans-serif;
+}
+
+:root {
+    --background: #efe8e2;
+    --light-green: #406156;
+    --dark-green: #2b4039;
+    --text-color: #6c9d8d;
+}
+
+
+/* header styling */
+header {
+    background-color: var(--dark-green);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    padding-bottom: 12px;
+}
+
+header h1 a {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--dark-green);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 25px;
+}
+
+header nav ul li a {
+    padding: 10px 4px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+header nav ul li a span {
+    border-bottom: 3px solid var(--text-color);
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--text-color);
+    display:flex;
+    text-align: right;
+    padding-top: 3px;
+}
+
+header h1 a {
+    width: 300px;
+    background-color: var(--text-color);
+    padding-right: 8px;
+} 
+
+/* hero styling */
+
+.hero {
+    background-image: url(../images/ali-kazal-7b39feeIMO0-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero p {
+    margin: 20px 75px; 
+    background-color: var(--text-color);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* body styling */
+body {
+    background: var(--background);
+}
+
+.body-container {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto auto;
+    padding-right: 60px;
+}
+
+
+.footer-info li a {
+    text-decoration: none;
+    color: var(--text-color);
+    border-bottom: 3px solid var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-info img{
+    height: 135px;
+    width: 90px;
+    padding-top: 5px;
+}
+
+.left-aside {
+    border-right: 3px solid var(--text-color);
+    text-align: right;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.left-aside h3 {
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+} 
+
+/* work section styling */
+
+.work-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.site-1 a {
+    display: block;
+    background-image: url(../images/runbuddy.JPG);
+    background-size: cover;
+    border: 3px solid var(--text-color);
+    height: 100%;
+    width: 100%;
+    opacity: 75%;
+}
+
+.site-1 a:hover, .site-2 a:hover, .site-3 a:hover, .site-4 a:hover, .site-5 a:hover {
+    opacity: 100%
+}
+
+
+.site-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+
+.site-1 p {
+    display: block;
+    background-color: var(--text-color);
+    height: 60px;
+    width: 150px;
+    position: relative;
+    bottom: 125px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.site-1 p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.site-2 {
+    grid-column: 3;
+}
+
+.site-2 a {
+    display: block;
+    background-image: url(../images/Home\ Page.PNG);
+    background-size: cover;
+    border: 3px solid var(--text-color);
+    height: 100%;
+    width: 100%;
+    opacity: 75%;
+}
+
+.site-2 p {
+    display: block;
+    background-color: var(--text-color);
+    height: 60px;
+    width: 150px;
+    position: relative;
+    bottom: 125px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.site-2 p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.site-3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.site-3 a {
+    display: block;
+    background-image: url(../images/calculatorjpg.jpg);
+    background-size: cover;
+    border: 3px solid var(--text-color);
+    height: 100%;
+    width: 100%;
+    opacity: 75%;
+}
+
+.site-3 p {
+    display: block;
+    background-color: var(--text-color);
+    height: 60px;
+    width: 150px;
+    position: relative;
+    bottom: 125px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.site-3 p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.site-4 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.site-4 a {
+    display: block;
+    background-image: url(../images/disneyland.jpg);
+    background-size: cover;
+    border: 3px solid var(--text-color);
+    height: 100%;
+    width: 100%;
+    opacity: 75%;
+}
+
+.site-4 p {
+    display: block;
+    background-color: var(--text-color);
+    height: 60px;
+    width: 150px;
+    position: relative;
+    bottom: 125px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.site-4 p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.site-5 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.site-5 a {
+    display: block;
+    background-image: url(../images/starwars.jpg);
+    background-size: cover;
+    border: 3px solid var(--text-color);
+    height: 100%;
+    width: 100%;
+    opacity: 75%;
+}
+
+.site-5 p {
+    display: block;
+    background-color: var(--text-color);
+    height: 60px;
+    width: 150px;
+    position: relative;
+    bottom: 125px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.site-5 p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.work-content {
+    height: 600px;
+}
+
+/* media query smaller screens */
+@media screen and (max-width: 1000px) {
+    .left-aside {
+        border-bottom: 3px solid var(--text-color);
+        text-align: center;
+        border-right: none;
+    }
+
+    .body-container {
+        grid-template-columns: auto;
+        padding-right: 0px;
+    }
+
+    .body-container p {
+        text-align: center;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .site-2 {
+        grid-column: 1;
+    }
+
+    .site-3 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .site-4 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .site-5 {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    header nav ul {
+        padding-right: 0px;
+    }
+
+    header nav ul li a {
+        font-size: 12px;
+    }
+
+    .footer-info li a {
+        font-size: 16px;
+    }
+
+}
